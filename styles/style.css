@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;}
+body{
+    background-color:#003140;
+    color:#f39f5a;
+    font-family:'Bricolage Grotesque';
+    font-weight:bold;
+    
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100px;
+    background-color:#b62549;
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+}
+nav ul li{
+    list-style-type:none;
+    margin: 0 40px;
+    color:#b62549;
+    font-size: 1rem;
+}
+nav ul li a:hover{
+   color:#f39f5a;
+}
+
+.left{
+    font-size:200%;
+    color:whitesmoke;
+
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    margin:80px 0;
+}
+.firstsec>div{
+    width:30%;
+}
+.rightsec img{
+    width:70%;
+    margin:40px 60px;
+}
+.leftsec{
+    font-size: 2.7rem;
+    margin:30px 0;
+
+}
+.name{
+    color: #ae445a;
+}
+#element{
+    color: #ae445a;
+}
+.home{
+    color: #1d1a3a;
+}
+main hr{
+    border:0;
+    background-color: #b62549;
+    height:1.2px;
+    margin:20px 55px;
+
+}
+.secondsec{
+    max-width:80vw ;
+    margin: auto;
+}
+.secondsec h1{
+    font-size: 1.6rem;
+}
+.about{
+    color:#f39f5a;
+    margin-bottom: 200px;
+}
+.aboutme{
+    color:#ae445a;
+}
+footer{
+    background-color: #b62549;
+    
+}
+.footer{
+    display:flex;
+    padding:10px 10px;
+    justify-content: space-evenly;
+
+}
+
+.face{
+    height:50px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+.face:hover{
+    height:53px;
+}
+.insta{
+    height:50px;
+    padding-left:20px;
+    padding-top: 40px;
+    margin-right: 10px;
+}
+.insta:hover{
+    height:53px;
+}
+.linkedln{
+    height:53px;
+    padding-left:20px;
+    margin-right: 10px;
+    padding-top: 40px;
+    
+    
+}
+.linkedln:hover{
+    height:56px;
+}
+.mail{
+    height:55px;
+    padding-left:20px;
+    margin-right: 10px;
+    }
+.mail:hover{
+    height:58px;
+}
+footer .footer-rights{
+    text-align: center;
+    color:#003140;
+    padding: 12px 0;
+}
+.btna{
+    color: #003140;
+    background-color: #b62549;
+    padding: 12px;
+    border-width:3px;
+    font-weight: bold;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    border-style:solid;
+}
+.btnb{
+    color: #003140;
+    background-color: #b62549;
+    padding: 12px;
+    border-width:3px;
+    font-weight: bold;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 0px;
+    border-style:solid;
+}
+.btnb:hover{
+
+    padding: 15px;
+}
+.btna:hover{
+    padding: 15px;
+    border-style:solid;
+}
+.btna:active{
+    padding: 12px;
+}
+.btnb:active{
+    padding: 12px;
+}
