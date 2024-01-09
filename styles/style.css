@@ -168,3 +168,18 @@ footer .footer-rights{
 .btnb:active{
     padding: 12px;
 }
+.white{
+    color:whitesmoke;
+}
+.thirdsec{
+    max-width:80vw ;
+    margin: auto;
+    padding-bottom: 200px;
+
+}
+.cert{
+    color:#f39f5a;
+}
+.cert:hover{
+    color:whitesmoke;
+}
